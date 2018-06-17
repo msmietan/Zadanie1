@@ -37,8 +37,6 @@ main{
 	margin-top: 100px;	
 }
 
-
-
 #search {
 	margin-top: 30px;
 	width: 70%;
@@ -55,7 +53,13 @@ main{
 #search:hover{
 	box-shadow: 0 2px 0.5px #C5C5C5;
 }
-	
+
+#search img {
+	max-height: 20px;
+	text-align: right;
+	padding-left: 10px;
+	vertical-align: middle;	
+}	
 
 main #search input{
 	width: 70%;
@@ -70,13 +74,6 @@ main #search input:focus{
 		border: none;
 		background-color: rgb(0,0,0,0);
 		
-}
-
-#search img {
-	max-height: 20px;
-	text-align: right;
-	padding-left: 10px;
-	vertical-align: middle;	
 }
 
 button {
